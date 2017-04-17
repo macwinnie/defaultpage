@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $dotenv = new Dotenv (__DIR__);
+    $dotenv = new Dotenv\Dotenv (__DIR__);
     $dotenv->load();
 } catch (\Exception $e) {}
 
