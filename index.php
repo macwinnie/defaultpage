@@ -21,7 +21,7 @@ if ($_SERVER['SERVER_NAME'] !== $domain and $_SERVER['SERVER_NAME'] !== 'www.'.$
 	<head>
 		<style>
 			body {
-				background: <?= env('BACKGROUNDCOLOR', '#203744') ?>;
+				background: <?= env('BACKGROUNDCOLOR', '#05454C') ?>;
 				text-align: center;
 				font-family: sans-serif;
 				color: <?= env('COLOR', '#ffffff') ?>;
