@@ -13,7 +13,7 @@ if (isset($_SERVER['HTTPS']) and $_SERVER['HTTPS'] !== null) {
 	$p .= 's';
 }
 if ($_SERVER['SERVER_NAME'] !== $domain and $_SERVER['SERVER_NAME'] !== 'www.'.$domain) {
-	//header('Location: '.$p.'://'.$domain.'/');
+	header('Location: '.$p.'://'.$domain.'/');
 }
 ?>
 <!DOCTYPE html>
