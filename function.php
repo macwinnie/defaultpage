@@ -1,5 +1,10 @@
 <?php
 
+try {
+    $dotenv = new Dotenv (__DIR__);
+    $dotenv->load();
+} catch (\Exception $e) {}
+
 function relativeURL () {
     $dir = str_replace('\\', '/', __DIR__);
     return substr($dir, strlen($_SERVER['DOCUMENT_ROOT']));
