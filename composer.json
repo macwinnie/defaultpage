@@ -1,0 +1,15 @@
+{
+    "name": "macwinnie/defaultpage",
+    "description": "simple defaultpage for webservers: work in progress / coming soon",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "license": "The Unlicense",
+    "authors": [
+        {
+            "name": "Martin Winter",
+            "email": "git@macwinnie.me"
+        }
+    ]
+}
